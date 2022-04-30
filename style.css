@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+html{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: white;
     height: 100vh;
@@ -10,7 +14,7 @@ body{
     padding: 0px;
 }
 .main{
-    height: 800px;
+    height: 98vh;
     width: 375px;
     display:flex ;
     flex-direction: column;
@@ -71,8 +75,17 @@ button{
     width: 150px;
 }
 button:hover{
-   background-color: transparent;
+   background:transparent;
 }
+button:hover > #a2 {
+    color: white;
+  }
+  button:hover > #a1 {
+    color: white;
+  }
+  button:hover > #a3 {
+    color: white;
+  }
 #a1{
     color: hsl(31, 77%, 52%);
 }
@@ -85,15 +98,6 @@ button:hover{
 a{
     text-decoration: none;
     font-family: Lexend Deca;
-}
-#a3:hover{
-    color: white;
-}
-#a1:hover{
-    color: white;
-}
-#a2:hover{
-    color: white;
 }
 @media only screen and (min-width: 1024px) {
     .main{
