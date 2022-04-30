@@ -30,7 +30,7 @@ Users should be able to:
 
 - Mobile view :
 
-![](./images/mobile%20screen.png)
+![](./images/screen2.png)
 
 - Desktop view :
 
