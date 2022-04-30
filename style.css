@@ -84,6 +84,9 @@ a{
     text-decoration: none;
     font-family: Lexend Deca;
 }
+a:hover{
+    color: white;
+}
 @media only screen and (min-width: 1024px) {
     .main{
       flex-direction:row;
