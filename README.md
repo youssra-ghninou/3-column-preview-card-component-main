@@ -30,16 +30,16 @@ Users should be able to:
 
 - Mobile view :
 
-![](./images/screenshot.jpg)
+![](./images/mobile%20screen.png)
 
 - Desktop view :
 
-![](./images/Desktop_preview.jpg)
+![](./images/desktop%20screen.png)
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: (]
+- Solution URL: [Source](https://github.com/youssra-ghninou/3-column-preview-card-component-main)
+- Live Site URL: [Demo](https://youssra-ghninou.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
