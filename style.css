@@ -84,7 +84,7 @@ a{
     text-decoration: none;
     font-family: Lexend Deca;
 }
-a:hover{
+#a1,#a2,#a3:hover{
     color: white;
 }
 @media only screen and (min-width: 1024px) {
