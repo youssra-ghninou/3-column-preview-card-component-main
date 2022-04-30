@@ -7,16 +7,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.main1{
-    height: 1502px;
+.main{
+    height: 800px;
     width: 375px;
     display:flex ;
     flex-direction: column;
     justify-content: center;
     
-}
-.main{
-    height: 800px;
 }
 .orange{
     background-color: hsl(31, 77%, 52%);
@@ -61,21 +58,45 @@ body{
     font-family: Lexend Deca;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    width: 290px;
+    width: 280px;
 }
 button{
     border-radius: 20px;
     border-color: hsla(0, 0%, 100%, 0.75);
+    background-color:hsla(0, 0%, 100%, 0.75) ;
     height: 40px;
     width: 150px;
+}
+button:hover{
+   background-color: transparent;
+}
+#a1{
+    color: hsl(31, 77%, 52%);
+}
+#a2{
+    color: hsl(184, 100%, 22%);
+}
+#a3{
+    color: hsl(179, 100%, 13%);
 }
 a{
     text-decoration: none;
     font-family: Lexend Deca;
-    color:yellowgreen ;
 }
 @media only screen and (min-width: 1024px) {
-    .main1 {
+    .main{
       flex-direction:row;
+      align-items: center;
+    }
+    .orange{
+        border-radius: 10px 0px 0px 10px;
+        height:350px ;
+    }
+    .light-g{
+        height: 350px;
+    }
+    .dark-g{
+        border-radius: 0px 10px 10px 0px;
+        height:350px ;
     }
     }
